@@ -17,7 +17,10 @@ Here are the scripts used for genomics study of _Fusarium oxysporum_ f. sp. _cub
 ##   **Genome annotation**
 
    1. Mask low-complexity regions (RepeatMasker)
-   2. 
+   2. Protein-coding genes on the repeat-masked genome assembly were predicted at JGI
+   3. Functional annotation (including Pfam and Gene Ontology [GO] terms) for the predicted protein-coding genes was performed by InterProScan, following a standard annotation workflow
+
+
 
 
    
