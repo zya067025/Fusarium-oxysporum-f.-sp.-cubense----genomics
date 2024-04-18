@@ -19,11 +19,12 @@ Here are the scripts used for genomics study of _Fusarium oxysporum_ f. sp. _cub
    1. Mask low-complexity regions (RepeatMasker)
    2. Protein-coding genes on the repeat-masked genome assembly were predicted at JGI
    3. Functional annotation (including Pfam and Gene Ontology [GO] terms) for the predicted protein-coding genes was performed by InterProScan, following a standard annotation workflow
+  
+##   **Comparative genomics** 
+
+    1. Gene family: All proteins from selected F. oxysporum strains were compared by BLAST analysis to evaluate the level of homology. The output from BLAST was processed with OrthoMCL v2.0.9 to group gene families using a cutoff of 1e-5, a minimum aligned sequence length coverage of 50% of the query sequence and an inflation index of 1.5
+    2. 
 
 
-
-
-   
-##   **Comparative genomics**
    
 ##   **Population genomics**
