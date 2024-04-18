@@ -1,8 +1,9 @@
 # _Fusarium oxysporum_ f. sp. _cubense_--genomics
   
-   #Genome assembly
+   **Genome assembly**
 
+   **Genome annotation**
    
-Genome annotation
-Comparative genomics
-Population genomics
+   **Comparative genomics**
+   
+   **Population genomics**
