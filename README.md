@@ -4,7 +4,9 @@ Here are the scripts used for genomics study of _Fusarium oxysporum_ f. sp. _cub
   
    **Genome assembly**
 
-   1.Genome assembly of the PacBio data was performed using Canu v1.8![image](https://github.com/zya067025/Fusarium-oxysporum-f.-sp.-cubense----genomics/assets/137108782/0224bb7b-9e9b-43f8-8507-1276fdf10f76)
+   1.Genome assembly of the PacBio data was performed using Canu v1.8!
+   2.Data from the Illumina libraries were trimmed by removing bases with a quality score below 20 at both ends and discarding trimmed reads with lengths <70 bp
+
 
 
    **Genome annotation**
