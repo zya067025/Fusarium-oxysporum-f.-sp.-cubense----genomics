@@ -13,12 +13,13 @@ Here are the scripts used for genomics study of _Fusarium oxysporum_ f. sp. _cub
    4. The quality of the assembly was evaluated with GRIDSS and Sniffles; All genomic structural variations were checked and corrected manually
 
    5. The completeness of all assemblies was confirmed using a BUSCO test employing a fungal database (odb9 version)
- 
- 
-
-
 
 ##   **Genome annotation**
+
+   1. Mask low-complexity regions (RepeatMasker)
+   2. 
+
+
    
 ##   **Comparative genomics**
    
