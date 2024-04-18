@@ -5,7 +5,16 @@ Here are the scripts used for genomics study of _Fusarium oxysporum_ f. sp. _cub
    **Genome assembly**
 
    1.Genome assembly of the PacBio data was performed using Canu v1.8
-   2.Data from the Illumina libraries were trimmed by removing bases with a quality score below 20 at both ends and discarding trimmed reads with lengths <70 bp
+   
+   2.Data from the Illumina libraries were trimmed by removing bases with a quality score below 20 at both ends and discarding trimmed reads with lengths <70 bp (Trimmomatic)
+
+   3.All sequences in the initial assembly were fed into Quiver along with trimmed Illumina sequences to polish the genome assembly
+
+   4.The quality of the assembly was evaluated with GRIDSS and Sniffles; All genomic structural variations were checked and corrected manually
+
+   5.The completeness of all assemblies was confirmed using a BUSCO test employing a fungal database (odb9 version)
+ 
+ 
 
 
 
