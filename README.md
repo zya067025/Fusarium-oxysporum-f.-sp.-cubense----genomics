@@ -28,3 +28,7 @@ Here are the scripts used for genomics study of _Fusarium oxysporum_ f. sp. _cub
 
    
 ##   Population genomics
+
+    1. Phylogenetic framework: nucleotide sequences of 10 conserved single-copy genes shared by Fusarium species were aligned using ClustalW
+    2. Remove regions with poor sequence quality and concatenate alignments into a single supermatrix
+    3. Generate maxiumum-likelihood phylogenetic tree using MEGA v10.2.6
