@@ -36,5 +36,5 @@ Here are the scripts used for genomics study of _Fusarium oxysporum_ f. sp. _cub
 
  #### Population structure
     1. All SNPs were used to define population structure using the admixture model for 10,000 replications as burn-in in STRUCTURE v2.3.4
-    2. 
+    2. PCA was conducted in SNPRelate using all SNPs
 
